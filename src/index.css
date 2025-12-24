@@ -64,3 +64,8 @@ select {
   padding: 16px;
   margin-inline: auto;
 }
+
+.container-center {
+  display: flex;
+  justify-content: center;
+}

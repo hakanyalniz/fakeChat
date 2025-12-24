@@ -1,10 +1,11 @@
 import "./App.css";
+import ChatWindow from "./components/chat/ChatWindow";
 
 function App() {
   return (
-    <>
-      <div>This is a new project</div>
-    </>
+    <div className="container container-center">
+      <ChatWindow />
+    </div>
   );
 }
 
